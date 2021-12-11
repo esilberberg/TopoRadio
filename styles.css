@@ -311,14 +311,21 @@ td:nth-child(odd) {
     .navbar-left {
         display: flex;
         flex-direction: column;
+        padding-bottom: 1em;
     }
     
     .navbar-right > * {
-        padding: 2em 1.5em;
+        padding: 1em 0;
     }
 
     .navbar-right {
-        font-size: 15px;
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+     footer {
+        font-size: 8px;
     }
  
     .legend img {
