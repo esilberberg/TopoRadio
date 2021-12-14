@@ -297,10 +297,15 @@ td:nth-child(odd) {
 /* Responsive ----------------------- */
 
 @media only screen and (max-width: 740px) {
+
+    body {
+        max-width: 400px;
+    }
+
     .navbar img {
         width: 150px;
     }
-    
+
     .navbar {
         display: flex;
         flex-direction: column;
@@ -325,7 +330,9 @@ td:nth-child(odd) {
     }
     
      footer {
-        font-size: 8px;
+        font-size: 9px;
+        text-align: center;
+        width: 90%;
     }
  
     .legend img {
@@ -362,6 +369,10 @@ td:nth-child(odd) {
         max-width: 330px;
         padding: 2em 0;
     }
+
+    #two.research-image img{
+        max-width: 330px;
+    }
     
     .milestones {
         display: block;
@@ -376,23 +387,23 @@ td:nth-child(odd) {
         padding-left: 0;
         text-align: center;
         margin: auto;
-        width: 300px;
+        width: 330px;
     }
     
     .milestone-images img {
-        width: 400px;
+        width: 330px;
         display: inline-block;
     }
     
     #five.research-image {
-        width: 400px;
+        width: 330px;
         margin: auto;
         padding: 2em 0;
         text-align: center;
     }
     
     #five.research-image img{
-        width: 400px;
+        width: 330px;
         margin: auto;
         text-align: center;
     }
