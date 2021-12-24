@@ -340,6 +340,10 @@ td:nth-child(odd) {
         width: 180px;
     }
 
+    .about-container {
+        text-align: left;
+    }
+
     .click-demo {
         display: block;
         margin-bottom: 2em;
@@ -376,6 +380,14 @@ td:nth-child(odd) {
     
     .milestones {
         display: block;
+    }
+
+    .research-text-box {
+        text-align: left;
+    }
+
+    tbody {
+        text-align: left;
     }
     
     #three.research-image {
@@ -415,6 +427,7 @@ td:nth-child(odd) {
     .contact-text-box {
         width: 100%;
         padding-right: 0;
+        text-align: left;
     }
     
     .contact-image {
