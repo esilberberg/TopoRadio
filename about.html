@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Metadata -->
+    <meta name="description" content="An interactive map to explore Spanish-language radio in the U.S.">
+    <meta name="keywords" content="Spanish-language, radio, bilingual, GIS, history, publications, archives">
+    <meta name="author" content="eric silberberg | ericsilberberg.com">
+    
+    <meta property="og:title" content="TopoRadio" />
+    <meta property="og:url" content="https://toporadio.org" />
+    <meta property="og:image" content="media\logos\toporadio-7.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="An interactive map to explore Spanish-language radio in the U.S." />
+
+    <meta name="twitter:title" content="TopoRadio">
+    <meta name="twitter:description" content="An interactive map to explore Spanish-language radio in the U.S.">
+    <meta name="twitter:image" content="media\logos\toporadio-7.jpg">
+    <meta name="twitter:card" content="media\logos\toporadio-7.jpg">
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5609HD3T0M"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-5609HD3T0M');
+    </script>
+
+    <!-- Style -->
+    <link rel="stylesheet" href="topo-style.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/media/logos/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/media/logos/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/media/logos/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/media/logos/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/media/logos/favicon/safari-pinned-tab.svg" color="#FBBA16">
+    <link rel="shortcut icon" href="/media/logos/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#fbba16">
+    <meta name="msapplication-config" content="/media/logos/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#fbba16">
+    
+    <title>TopoRadio | About</title>
+</head>
+<body>
+    <nav>
+        <div class="navbar-left">
+            <a href="index.html"><img src="media\logos\toporadio-7.svg" alt="toporadio"></a>
+            <a class="banner" href="index.html">TopoRadio</a>
+        </div>
+        <div class="navbar-right">
+          <a href="about.html">About</a>
+          <a href="research.html">Radio Research</a>
+          <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+
+    <main>
+        <h1>About</h1>
+        <section class="about-intro">
+            <p lang="es"><i>Se presenta acá una topografía <br>de la radio en español. <br>Más bien, La TopoRadio. <br>El topo, nuestro símbolo, <br>husmea a través la tierra <br>como nosotros en los libros y artículos.</i></p>
+            <p>TopoRadio maps books and articles about the history of Spanish-language radio in the United States according to the locations of the radio stations that each examines. Through this visual bibliography, researchers can identify publications that focus on a specific radio station, community, city, or region.</p>
+            <p>Spanish-language radio has been part of the U.S. broadcast landscape since the dawn of the radio era and continues to expand its audience, geographic reach, and market share--even while the popularity of English-language radio wanes. However, it remains invisible, inaudible, and ignored within mainstream radio history. TopoRadio encourages a more robust representation of Latino and Hispanic broadcasters and their contributions to media and culture.</p>
+        </section>
+
+        <h2>How to Use TopoRadio</h2>
+            <section class="demos">
+                <div class="click-demo">
+                    <img src="media\click-demo.gif" alt="Short animation of how to navigate the map.">
+                    <p>Explore stations and publications at the click of a mouse. Stations with more than one publication will enable you to review each. Check out the station and publication links for more info.</p>        
+                </div>
+                <div class="click-demo">
+                    <img src="media\search-demo.gif" alt="Short animation of how to use the search feature.">
+                    <p>Search keywords such as locations, programs, or broadcasters. <br>Look through the entire dataset (All), or limit to stations, publications, or archives.</p> 
+                </div>
+            </section>
+
+        <h2>Development</h2>
+            <section>
+                <p>The project was developed by Eric Silberberg in 2021, but it would not have been possible without the collaboration of the Spanish-Language Caucus of the Radio Preservation Task Force, who provided subject area expertise and recommendations for the main bibliography.</p>
+                <p>To create the map, the project assigns geographic coordinates to books and articles according to the address of the radio station studios they profiled. If a publication does not provide a station’s location, the Federal Communication Commission’s <a href="https://publicfiles.fcc.gov/find/KFSC/page-offset-0/order-best-match/filter-[]/" target="_blank" rel="noopener noreferrer">Public Inspection Files</a>,
+                fan sites, and <a href="https://en.wikipedia.org/wiki/QSL_card" target="_blank" rel="noopener noreferrer">QSL cards</a> are consulted to determine the studio's address. 
+                </p>
+                <p>When <i>station-address-publication</i> triplets are plotted with GIS software, the result is a map that demonstrates the regional dispersion of research content and subject overlap among publications in the field. Furthermore, the project identifies deficits among the publications--blank spots on the map--where further research is required.</p>
+                <p>Of the publications currently geocoded on the map, 70% are by women authors. This is also a current area of study as one third of publications were written the last five years (2016-2021), 74.1% from the past decade (2011-2021), and 96.3% since the year 2000.</p>
+            </section>
+
+        <h2>Downloads</h2>
+            <p><a href="https://docs.google.com/spreadsheets/d/1pQHqQLYae3qhc1f8cD-QZwItlfA1Dfs45FiuxEa-RhY/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Radio stations dataset</a></p>
+            <p><a href="https://docs.google.com/spreadsheets/d/1ArHQ5Cyt2FGV0ifzioG3JECIhE6vyrTpMxRFBY0rKac/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Archives dataset</a></p>
+        
+        <h2>Acknowledgements</h2>
+        <ul>
+            <li class="list-heading">Inspiration</li>
+            <li><a href="https://www.bacartography.org/" target="_blank" rel="noopener noreferrer">Borderlands Archives Cartography</a></li>
+            <li><a href="http://dominicanmusicusa.com/history/map" target="_blank" rel="noopener noreferrer">A History of Dominican Music in the United States</a></li>
+            <li><a href="http://whereweweresafe.org/" target="_blank" rel="noopener noreferrer">Where We Were Safe</a></li>
+            <li><a href="https://storymaps.arcgis.com/stories/252417ee6b69433e9976cdb2b9ac61df" target="_blank" rel="noopener noreferrer">Mapping the Movimiento</a></li>
+        </ul>
+        <ul>
+            <li class="list-heading">Subject Area Expertise & <br>Spanish Language Caucus of the RPTF</li>
+            <li><a href="https://www.chicst.ucsb.edu/people/dolores-in%C3%A9s-casillas" target="_blank" rel="noopener noreferrer">Dr. Dolores Ines Casillas</a></li>
+            <li class="person-title">Professor of Chicana and Chicano Studies and Director of the Chicano Studies Institute, University of California, Santa Barbara</li>
+            
+            <li><a href="https://www.history.udel.edu/people/faculty/srobles" target="_blank" rel="noopener noreferrer">Dr. Sonia Robles</a></li>
+            <li class="person-title">Assistant Professor of History, University of Delaware</li>
+
+            <li><a href="https://isearch.asu.edu/profile/3035388" target="_blank" rel="noopener noreferrer">Dr. Monica De La Torre</a></li>
+            <li class="person-title">Assistant Professor, School of Transborder Studies, Arizona State University</li>
+        </ul>
+        <ul>
+            <li class="list-heading">GIS Advice</li>
+            
+            <li><a href="https://library.nyu.edu/people/michelle-thompson/" target="_blank" rel="noopener noreferrer">Michelle Thompson Gumbs</a></li>
+            <li class="person-title">Geographic Information Systems Specialist, New York University</li>
+
+            <li><a href="https://atcoordinates.info/about/" target="_blank" rel="noopener noreferrer">Frank Donnelly</a></li>
+            <li class="person-title">Geospatial Information Services and Data Librarian, Brown University</li>
+        </ul>
+        <ul>
+            <li class="list-heading">Capstone Advisor</li>
+            <li><a href="https://sites.google.com/view/qcgslis/faculty/core-faculty/ping-li?authuser=0" target="_blank" rel="noopener noreferrer">Dr. Ping Li</a></li>
+            <li class="person-title">Associate Professor, School of Library and Information Science, CUNY Queens College</li>
+        </ul>
+        <ul>
+            <li class="list-heading">Research Assistance</li>
+
+            <li><a href="https://seis.ucla.edu/faculty-and-research/faculty-directory/shawn-vancour" target="_blank" rel="noopener noreferrer">Dr. Shawn VanCour</a></li>
+            <li class="person-title">Associate Professor, Department of Information Studies, University California, Los Angeles, and Director of the Radio Preservation Task Force</li>
+
+            <li><a href="https://www.lib.umd.edu/special/collections/massmedia/about-us" target="_blank" rel="noopener noreferrer">Michael Henry</a></li>
+            <li class="person-title">Curator for Mass Media & Culture, University of Maryland Library</li>
+
+            <li><a href="https://www.ccny.cuny.edu/dsi/librarian-sarah-aponte" target="_blank" rel="noopener noreferrer">Sarah Aponte</a></li>
+            <li class="person-title">Chief Librarian, Dominican Studies Institute, CUNY City College of New York</li>
+
+            <li><a href="https://www.ccny.cuny.edu/dsi/jhensen-ortiz" target="_blank" rel="noopener noreferrer">Jhensen Ortiz</a></li>
+            <li class="person-title">Librarian, Dominican Studies Institute, CUNY City College of New York</li>
+
+            <li><a href="https://centropr.hunter.cuny.edu/about/centro-staff" target="_blank" rel="noopener noreferrer">Aníbal Arocho</a></li>
+            <li class="person-title">Library Manager, Center for Puerto Rican Studies, CUNY Hunter College</li>
+            
+            <li><a href="https://library.tulane.edu/locations/lal/meet-our-staff" target="_blank" rel="noopener noreferrer">Christine Hernández</a></li>
+            <li class="person-title">Curator of Special Collections, Latin America Library, Tulane University</li>
+
+            <li><a href="https://www.library.ucla.edu/staff/jennifer-osorio" target="_blank" rel="noopener noreferrer">Jennifer Osorio</a></li>
+            <li class="person-title">Interim Director of Library Special Collections, University California, Los Angeles</li>
+
+            <li><a href="https://www.nypl.org/blog/author/1065" target="_blank" rel="noopener noreferrer">Danielle Cordovez</a></li>
+            <li class="person-title">Senior Librarian, Music & Recorded Sound, New York Public Library for the Performing Arts</li>
+
+            <li><a href="https://www.yurishimoda.com/" target="_blank" rel="noopener noreferrer">Yuri Shimoda</a></li>
+            <li class="person-title">Asset Management Coordinator, Disney Music Group</li>
+        </ul>
+        <ul>
+            <li class="list-heading">Critical Editing</li>
+            <li><a href="https://steviep.xyz/" target="_blank" rel="noopener noreferrer">Steve Pikelny</a></li>
+            <li>Maxwell Sultan</li>
+            <li>Marieugenia Cardenas</li>
+        </ul>
+        <ul>
+            <li class="list-heading">Iconography</li>
+            <li><a href="http://napsg-web.s3.amazonaws.com/symbology/index.html#/" target="_blank" rel="noopener noreferrer">NAPSG Foundation</a></li>
+            <li><a href="https://thenounproject.com/headsofbirds/" target="_blank" rel="noopener noreferrer">HeadsOfBirds</a></li>
+            <li><a href="https://thenounproject.com/prosymbols/" target="_blank" rel="noopener noreferrer">ProSymbols</a></li>
+
+        </ul>
+    </main>
+    <footer>
+        &copy; 2022 <a href="https://www.ericsilberberg.com" target="_blank" rel="noopener noreferrer">Eric Silberberg</a>  &nbsp | &nbsp  In Collaboration with the <a href="https://www.radiopreservation.org/" target="_blank" rel="noopener noreferrer">Radio Preservation Task Force</a>
+    </footer> 
+
+</body>
+</html>
